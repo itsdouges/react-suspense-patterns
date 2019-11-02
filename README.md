@@ -4,9 +4,15 @@
 
 ### Immediately
 
-### Using React Router
+### Behind user interaction
 
-### Behind a button
+https://react-suspense-patterns.netlify.com/loading-components/behind-button
+
+Loading a lazy component when clicking on a button.
+
+![Behind user interaction](https://user-images.githubusercontent.com/6801309/68077529-b83aa780-fe19-11e9-8b4d-f436e4aeb2c3.gif)
+
+### Using React Router
 
 ## Loading data
 
