@@ -1,12 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "@atlaskit/css-reset";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import LoadingComponentsBehindButton from "./loading-components/behind-button";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const App = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route
+        component={LoadingComponentsBehindButton}
+        path="/loading-components/behind-button"
+      />
+    </Switch>
+  </BrowserRouter>
+);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

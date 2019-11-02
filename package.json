@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "@atlaskit/avatar": "^17.1.4",
+    "@atlaskit/button": "^13.3.3",
+    "@atlaskit/css-reset": "^5.0.9",
+    "@atlaskit/flag": "^12.3.4",
+    "@atlaskit/modal-dialog": "^10.3.5",
+    "@atlaskit/motion": "0.0.2",
+    "react": "experimental",
+    "react-dom": "experimental",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
